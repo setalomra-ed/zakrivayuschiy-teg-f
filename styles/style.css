@@ -149,7 +149,6 @@
 
 .card__icon-button {
   padding: 0;
-  border: none;
   background: transparent;
   cursor: pointer;
   transition: border-color 0.3s ease;
@@ -158,7 +157,7 @@
 
 .card__icon-button:focus-visible {
   outline: none;
-  border-color: var(--border-color);
+  border-color: var(--container-border-color);
 }
 
 .card__like-button {
@@ -187,7 +186,6 @@
   content: '';
   position: absolute;
   inset: 0;
-  background-color: #000;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.5s ease-in-out;
